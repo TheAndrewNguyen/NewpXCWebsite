@@ -1,4 +1,3 @@
-
 /*Flex box */
 .nav-container{
     display: flex;
@@ -6,13 +5,21 @@
     align-items: center;
     flex-wrap: nowrap;
     background-color: black;
-    height: 80px
+    height: 8.9vh;
+    
 
 }
 
 .nav-container > .nav_text{
     font-size: 24px;  
     color: white;
+    text-decoration: none;
+} 
+
+/*after link has been clicked on make sure it doesn't change color*/ 
+.nav_text a:visited{
+    color: inherit; 
+    text-decoration: none;
 } 
 
 #knight_img img{
@@ -21,9 +28,3 @@
     padding-left: 10px;
     padding-bottom: 10px;
 }
-
-.main-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} 
