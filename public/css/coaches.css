@@ -4,8 +4,13 @@
     
 } 
 
-.title {
-    align-self: center;
 
+.coach-title{
+    align-self: center;
+    color: red;
+} 
+
+.coach span {
+    color: rgb(228, 196, 12);
 
 } 
