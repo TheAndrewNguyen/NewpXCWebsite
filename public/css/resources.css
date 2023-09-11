@@ -1,0 +1,72 @@
+
+/*Entire resources container */ 
+.resources-container{
+    display: flex;
+    flex-direction: column; 
+    flex-basis: 100%;
+    width: 100%;
+    height: 100vh;
+    margin-left: 1%;
+} 
+
+.resources-container .title {
+    align-self: center;
+}
+
+.resources-container .title h1{
+    margin-bottom: 0px;
+} 
+
+/*Team handbook section */ 
+.handbook-container {
+    margin-top: 0px;
+} 
+
+.item {
+    font-size: 1.2rem;
+    margin-left: 0.2rem;
+} 
+
+.sub-titles h2{
+    margin-top: 1rem;
+}
+
+/*Communication container */
+
+.container-list{
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+} 
+
+.communication-container ul li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+} 
+
+.bolded-li{
+    font-weight: bold;
+} 
+
+#remind{
+ color: rgb(6, 86, 172);
+} 
+
+#athletic{
+    color: rgb(173, 10, 10);
+} 
+
+#strava {
+    color:rgb(252, 76, 2) ;
+} 
+
+#facebook {
+    color: rgb(1, 101, 225);
+} 
+
+/*Strength and conditioning css */ 
+.strength-container ul li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-left: 0.2rem;
+} 
