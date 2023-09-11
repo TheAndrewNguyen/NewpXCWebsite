@@ -1,9 +1,19 @@
 .coaches-container {
     display: flex;
     flex-direction: column;
-    
+    margin-left: 2%;
+    margin-right: 2%;
+
 } 
 
+h1{
+    margin-bottom: 0px;
+} 
+
+#head{
+    margin-top: 0px;
+
+} 
 
 .coach-title{
     align-self: center;
@@ -12,5 +22,15 @@
 
 .coach span {
     color: rgb(228, 196, 12);
+} 
+
+.coach-bio{
+    font-size: 1.2rem;
 
 } 
+
+.coach-image {
+    float: left;
+    margin-right: 1%;
+} 
+

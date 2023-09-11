@@ -1,0 +1,30 @@
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+} 
+
+.schedule-container h1{
+    font-size: 2rem;
+    color: red;
+}
+
+
+.schedule-container li {
+    list-style: none;
+    margin: 20px;
+    font-size: 1.3rem;
+
+} 
+
+.schedule-container p {
+    font-size: 1.5rem;
+
+} 
+
+.schedule-container .event {
+    color: rgb(184, 134, 11);
+
+} 
